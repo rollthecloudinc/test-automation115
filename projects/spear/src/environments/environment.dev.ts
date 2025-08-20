@@ -8,16 +8,16 @@ const signingKeys = {"keys":[{"alg":"RS256","e":"AQAB","kid":"AVAUnZnRHZ8veNowR0
 
 export const environment = {
   production: false,
-  site: 'spearhead',
+  site: 'test-automation115',
   apiGatewaySettings: {
     // endpointUrl: 'https://localhost:44340',
-    endpointUrl: "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/rollthecloudinc/spearhead-objects/shapeshifter"
+    endpointUrl: "https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/rollthecloudinc/test-automation115-objects/shapeshifter"
   },
   mediaSettings: {
-    endpointUrl: 'https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/spearhead/media',
+    endpointUrl: 'https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/test-automation115/media',
     cloudinaryUrl: 'https://api.cloudinary.com/v1_1/dj4vvkgzw',
     uploadPreset: 'i0hm4opm',
-    imageUrl: 'https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/spearhead',
+    imageUrl: 'https://m7k310bu9a.execute-api.us-east-1.amazonaws.com/test-automation115',
     bucket: 'classifieds-ui-dev',
     prefix: 'media/'
   },
@@ -48,7 +48,7 @@ export const environment = {
   panelsSettings: {
     openSearchDomain: 'search-classifieds-ui-dev-eldczuhq3vesgpjnr3vie6cagq',
     s3Bucket: 'classifieds-ui-dev',
-    objectsRootUrl: 'https://rollthecloudinc.github.io/spearhead-objects'
+    objectsRootUrl: 'https://rollthecloudinc.github.io/test-automation115-objects'
   },
   alienaliasSettings: {
     openSearchDomain: 'search-classifieds-ui-dev-eldczuhq3vesgpjnr3vie6cagq'
